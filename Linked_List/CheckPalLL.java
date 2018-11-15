@@ -61,7 +61,7 @@ class Node2
             temp2=temp2.next;
         }
         //temp2=temp2.next;
-        for(k=i-1,j=0;j!=k;k--,j++)
+        for(k=i,j=0;j<=k;k--,j++)
         {
             if(temp2.data==temp1.data)
             {
